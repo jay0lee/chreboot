@@ -1,0 +1,23 @@
+{
+  "name": "Chreboot",
+  "description": "Notify users to restart Chrome/OS for updates",
+  "version": "1",
+  "icons": {
+    "16": "icon.png",
+    "128": "icon.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "background",
+    "identity",
+    "identity.email",
+    "http://*/",
+    "https://*/",
+	"tabs"
+  ],
+  "manifest_version": 2
+}
